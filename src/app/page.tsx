@@ -1,14 +1,13 @@
 import Description from "./components/description/description";
+import Infos from "./components/infos/infos";
+import SideMenu from "./components/side-menu/side-menu";
 
 export default function Home() {
   return (
     <main>
-      <div className="side-menu">
-
-      </div>
-      <div className="infos">
-
-      </div>
+      <SideMenu />
+      <Infos />
+      <div className="vertical-line"></div>
       <Description />
     </main>
   )
