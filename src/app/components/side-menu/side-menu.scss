@@ -1,8 +1,21 @@
 .side-menu {
-    position: fixed;
-    left: 0;
-    padding-left: 40px;
-    .social {
-        margin-bottom: 30px;
+    @media (min-width: 768px) {
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        padding-left: 40px;
+        .social {
+            margin-bottom: 30px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        order: 4;
     }
 }

@@ -1,26 +1,18 @@
 .infos {
     color: var(--text-secondary);
     font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
-    display: block;
-    align-items: center;
     text-align: center;
-
-    p {
-        width: 522px;
-    }
 
     .contact {
         padding-top: 50px;
+
         button {
             /* Rectangle 1 */
             width: 241px;
             height: 38px;
             border: 2px solid #FFFFFF;
             border-radius: 100px;
-            
+
             color: var(--text-primary);
             font-style: normal;
             font-weight: 400;
@@ -31,6 +23,27 @@
 
         button:hover {
             background: linear-gradient(90deg, #00D1FF 0%, #001AFF 100%);
+        }
+    }
+
+    @media (max-width: 768px) {
+        order: 2;
+    }
+
+    @media (min-width: 768px) {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        p {
+            width: 522px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 30px;
         }
     }
 }
