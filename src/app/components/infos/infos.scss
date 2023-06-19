@@ -26,10 +26,7 @@
         }
     }
 
-    @media (max-width: 768px) {
-        order: 2;
-    }
-
+    /* Desktop Config */
     @media (min-width: 768px) {
         font-weight: 400;
         font-size: 20px;
@@ -40,10 +37,25 @@
         justify-content: center;
 
         p {
+            padding: 20px 0px 0px 0px;
             width: 522px;
             font-style: normal;
             font-weight: 300;
             line-height: 30px;
+        }
+    }
+
+    /* Mobile Config */
+    @media (max-width: 768px) {
+        order: 2;
+
+        p {
+            padding: 0px 20px 0px 20px;
+            line-height: 27px;
+        }
+
+        .contact {
+            padding-top: 30px;
         }
     }
 }

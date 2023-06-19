@@ -22,23 +22,26 @@ main {
   align-items: center;
   gap: 30px;
 
+  /* Desktop Config */
   @media (min-width: 768px) {
     height: 100vh;
     display: flex;
     flex-direction: row;
 
-    .vertical-line {
+    .straight-line {
       border-left: 1px solid #ACACAC;
       height: 600px;
     }
   }
 
+  /* Mobile Config */
   @media (max-width: 768px) {
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
 
-    .vertical-line {
+    .straight-line {
+      height: 13px;
       border-bottom: 1px solid #ACACAC;
       width: 100%;
       order: 3;

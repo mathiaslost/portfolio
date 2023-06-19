@@ -7,7 +7,7 @@ export default function Home() {
     <main>
       <SideMenu />
       <Infos />
-      <div className="vertical-line"></div>
+      <div className="straight-line"></div>
       <Description />
     </main>
   )

@@ -12,8 +12,8 @@ export default function Description() {
                 priority
             />
             <div className="data">
-                <h1>Gabriel Mathias</h1>
-                <h2>Systems Analyst</h2>
+                <h1>Hi, I'm Gabriel Mathias 👋🏼</h1>
+                <h2>Developer</h2>
             </div>
         </div>
     )
