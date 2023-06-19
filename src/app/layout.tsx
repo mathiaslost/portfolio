@@ -1,7 +1,7 @@
-import './globals.css'
-import { Inter } from 'next/font/google'
+import './globals.scss'
+import { Khula } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Khula({ subsets: ['latin'], weight: ['300', '400', '600'] })
 
 export const metadata = {
   title: 'Create Next App',
