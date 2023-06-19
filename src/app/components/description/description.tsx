@@ -13,7 +13,7 @@ export default function Description() {
             />
             <div className="data">
                 <h1>Gabriel Mathias</h1>
-                <h2>Java Web Developer</h2>
+                <h2>Systems Analyst</h2>
             </div>
         </div>
     )
