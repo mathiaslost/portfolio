@@ -23,7 +23,7 @@ main {
   gap: 30px;
 
   /* Desktop Config */
-  @media (min-width: 768px) {
+  @media (min-width: 600px) {
     height: 100vh;
     display: flex;
     flex-direction: row;
@@ -35,7 +35,7 @@ main {
   }
 
   /* Mobile Config */
-  @media (max-width: 768px) {
+  @media (max-width: 600px) {
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;

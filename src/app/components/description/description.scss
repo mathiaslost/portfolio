@@ -21,7 +21,7 @@
     }
 
     /* Desktop Config */
-    @media (min-width: 768px) {
+    @media (min-width: 600px) {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -45,7 +45,7 @@
     }
 
     /* Mobile Config */
-    @media (max-width: 768px) {
+    @media (max-width: 600px) {
         order: 1;
         text-align: center;
         padding-top: 20px;

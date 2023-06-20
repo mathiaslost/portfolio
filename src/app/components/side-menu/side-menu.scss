@@ -1,7 +1,7 @@
 .side-menu {
 
     /* Desktop Config */
-    @media (min-width: 768px) {
+    @media (min-width: 600px) {
         height: 100vh;
         justify-content: center;
         align-items: center;
@@ -16,7 +16,7 @@
     }
 
     /* Mobile Config */
-    @media (max-width: 768px) {
+    @media (max-width: 600px) {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
