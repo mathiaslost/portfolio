@@ -5,6 +5,7 @@ import Link from "next/link"
 export default function SideMenu() {
     return (
         <div className="side-menu">
+            {/* GitHub */}
             <div className="social">
                 <Link href={'https://github.com/mathiaslost'}>
                     <Image
@@ -16,19 +17,9 @@ export default function SideMenu() {
                     />
                 </Link>
             </div>
+            {/* LinkedIn */}
             <div className="social">
-                <Link href={''}>
-                    <Image
-                        src="/instagram.svg"
-                        alt="Instagram"
-                        width={40}
-                        height={40}
-                        priority
-                    />
-                </Link>
-            </div>
-            <div className="social">
-                <Link href={''}>
+                <Link href={'https://www.linkedin.com/in/gabriel-mathias/'}>
                     <Image
                         src="/linkedin.svg"
                         alt="Linked-in"
