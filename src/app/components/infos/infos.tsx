@@ -7,7 +7,7 @@ export default function Infos() {
             <p>I have solid experience with the language Java using the Struts Framework, Hibernate, JSF2 and Primefaces.</p>
 
             <div className="contact">
-                <button>CONTATCT ME</button>
+                <button>CONTACT ME</button>
             </div>
         </div>
     )
